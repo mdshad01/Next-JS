@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ComponetPage from "./_components/page";
 
 export default async function Home({ params, searchParams }) {
 	// console.log(await params);
@@ -7,6 +8,7 @@ export default async function Home({ params, searchParams }) {
 	return (
 		<>
 			<h1>Technical Agency </h1>
+			<ComponetPage />
 			<Link href="/blogs">Blogs</Link>
 			<br />
 			<br />
